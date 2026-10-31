@@ -1,0 +1,253 @@
+.GrandParent {
+  /* border: 1px solid black; */
+  display: flex;
+  height: 100vh;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+}
+
+.Parent1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  height: 400px;
+  width: 400px;
+  /* border: 1px solid black; */
+  padding: 10px;
+  gap: 10px;
+}
+.NumOne {
+  /* border: 1px solid black; */
+  background-color: yellow;
+}
+.NumTwo {
+  /* border: 1px solid black; */
+  background-color: red;
+}
+
+.NumThree {
+  /* border: 1px solid black; */
+  background-color: blue;
+}
+
+.NumFour {
+  /* border: 1px solid black; */
+  background-color: black;
+}
+
+.NumFive {
+  /* border: 1px solid black; */
+  background-color: blueviolet;
+}
+
+.NumSix {
+  /* border: 1px solid black; */
+  background-color: green;
+}
+
+.Parent2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 400px;
+  width: 400px;
+  /* border: 1px solid black; */
+  padding: 10px;
+  gap: 10px;
+}
+
+.Parent3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 400px;
+  width: 400px;
+  /* border: 1px solid black;
+  padding: 10px; */
+  gap: 10px;
+}
+
+.Parent4 {
+  display: grid;
+  grid-template-columns: auto;
+  height: 400px;
+  width: 400px;
+  /* border: 1px solid black; */
+  padding: 10px;
+  gap: 10px;
+}
+
+.A {
+  /* border: 1px solid black; */
+  background-color: burlywood;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-size: large;
+  color: white;
+}
+
+.B {
+  /* border: 1px solid black; */
+  background-color: purple;
+  font-size: large;
+  color: white;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.C {
+  /* border: 1px solid black; */
+  background-color: skyblue;
+  font-size: large;
+  color: white;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+}
+
+.D {
+  /* border: 1px solid black; */
+  background-color: indigo;
+  font-size: large;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.E {
+  /* border: 1px solid black; */
+  background-color: orangered;
+  font-size: large;
+  color: white;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.F {
+  /* border: 1px solid black; */
+  background-color: palevioletred;
+  font-size: large;
+  color: white;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.G {
+  /* border: 1px solid black; */
+  background-color: black;
+}
+.H {
+  /* border: 1px solid black; */
+  background-color: blanchedalmond;
+}
+
+.I {
+  /* border: 1px solid black; */
+  background-color: indianred;
+}
+
+.J {
+  /* border: 1px solid black; */
+  background-color: whitesmoke;
+}
+
+.K {
+  /* border: 1px solid black; */
+  background-color: pink;
+}
+
+.L {
+  /* border: 1px solid black; */
+  background-color: greenyellow;
+}
+
+.M {
+  /* border: 1px solid black; */
+  background-color: cadetblue;
+}
+
+.N {
+  /* border: 1px solid black; */
+  background-color: goldenrod;
+}
+
+.O {
+  /* border: 1px solid black; */
+  background-color: silver;
+}
+
+.P {
+  /* border: 1px solid black; */
+  background-color: aquamarine;
+}
+
+.Q {
+  /* border: 1px solid black; */
+  background-color: tomato;
+}
+
+.R {
+  /* border: 1px solid black; */
+  background-color: black;
+}
+.New {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  border: 1px solid black;
+  height: 300px;
+  gap: 10px;
+}
+.baby {
+  border: 1px solid black;
+  background-color: red;
+}
+.boy {
+  border: 1px solid black;
+  background-color: green;
+}
+.girl {
+  border: 1px solid black;
+  background-color: black;
+}
+.red {
+  border: 1px solid black;
+  background-color: aqua;
+}
+.green {
+  border: 1px solid black;
+  background-color: purple;
+}
+
+@media (max-width: 768px) {
+  .New {
+    /* display: grid; */
+    grid-template-columns: auto;
+    /* border: 1px solid black; */
+    height: 100vh;
+    /* gap: 10px; */
+  }
+  .baby {
+    border: 1px solid black;
+    background-color: red;
+    display: none;
+  }
+  .boy {
+    border: 1px solid black;
+    background-color: green;
+  }
+  .girl {
+    border: 1px solid black;
+    background-color: black;
+  }
+  .red {
+    border: 1px solid black;
+    background-color: aqua;
+  }
+  .green {
+    border: 1px solid black;
+    background-color: purple;
+  }
+}
